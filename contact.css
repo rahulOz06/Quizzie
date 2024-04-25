@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #dddfeb;
+}
+/* Form section */
+.form {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  background-color: #1f2847;
+  padding: 24px 32px;
+  color: #fff;
+  overflow: hidden;
+  margin-top: 96px;
+  margin-bottom: 32px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  /* box-sizing: border-box; */
+  margin-top: 6px;
+  margin-bottom: 16px;
+  /* resize: vertical; */
+}
+
+.heading {
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: 32px;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type="submit"] {
+  color: rgb(255, 255, 255);
+  padding: 12px 20px;
+  border: none;
+  width: 100%;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #0c80ef;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type="submit"]:hover {
+  background-color: #0a6bc5;
+}
+
+/* Add a background color and some padding around the form */
+/* .container {
+  border-radius: 5px;
+  background-color: #977a7a;
+  padding: 20px;
+} */
+
+/* Footer */
+footer {
+  color: #fff;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #1f2847;
+}
+footer p {
+  margin: 0;
+  text-align: center;
+}
